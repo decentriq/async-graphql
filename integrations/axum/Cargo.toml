@@ -14,11 +14,11 @@ version = "7.0.3"
 [dependencies]
 async-graphql.workspace = true
 
-async-trait.workspace = true
+async-trait = "0.1.51"
 axum = { version = "0.7.0", features = ["ws"] }
-bytes.workspace = true
-futures-util.workspace = true
-serde_json.workspace = true
+bytes = { version = "1.0.1", features = ["serde"] }
+futures-util = { version = "0.3.0", default-features = false }
+serde_json = "1.0.64"
 tokio = { version = "1.17.0", features = ["time"] }
 tokio-util = { workspace = true, default-features = false, features = [
     "io",

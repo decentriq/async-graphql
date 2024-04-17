@@ -14,8 +14,8 @@ version = "7.0.3"
 [dependencies]
 async-graphql-value = { path = "../value" }
 pest = "2.7.4"
-serde.workspace = true
-serde_json.workspace = true
+serde = { version = "1.0.125", features = ["derive"] }
+serde_json = "1.0.64"
 
 [dev-dependencies]
 pest_generator = "2.7.4"
