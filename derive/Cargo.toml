@@ -15,7 +15,7 @@ version = "7.0.3"
 proc-macro = true
 
 [dependencies]
-async-graphql-parser.workspace = true
+async-graphql-parser = { path = "../parser" }
 
 Inflector = "0.11.4"
 darling = "0.20.1"

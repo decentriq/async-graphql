@@ -35,9 +35,9 @@ harness = false
 name = "static_schema"
 
 [dependencies]
-async-graphql-derive.workspace = true
-async-graphql-parser.workspace = true
-async-graphql-value.workspace = true
+async-graphql-derive = { path = "./derive"}
+async-graphql-parser = { path = "./parser" }
+async-graphql-value = { path = "./value" }
 
 async-stream = "0.3.0"
 async-trait.workspace = true
